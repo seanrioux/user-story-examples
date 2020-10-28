@@ -1,0 +1,30 @@
+users:
+  - string: ""
+    subject: ""
+    state: ""
+ 
+# `as a ${subject} I need to ${action} a ${object} so that I can ${intent} my ${object}`
+
+interactions:
+  - string: ""
+    action: ""
+    object: ""
+    objectProperty: ""
+    objectSingular: true
+goals:
+  - string: ""
+    intent: ""
+    object: ""
+    objectProperty: ""
+
+stories: 
+  - string: ""
+    user: ""
+    interaction: ""
+    story: ""
+    goal: ""
+
+objects:
+  - string: ""
+    properties: ["","",""]
+

@@ -1,0 +1,28 @@
+# Interface types...
+
+
+actions:
+  # information display
+  search
+  filter
+  list
+  view
+  # form
+  edit
+  select
+  edit
+  create
+  press
+  total
+  add
+  subtract
+  devide
+  multiply
+  depress
+  switch
+  toggle
+  place
+  hold
+  click
+  double-click
+  request
