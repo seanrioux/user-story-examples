@@ -1,13 +1,26 @@
 # Interface types...
 
 
+
+
+
+search:
+- search:
+  - assess
+  - review
+- filter: 
+  - goals:
+    - reduce
+    - narrow
+    - 
+- view:
+
+
 actions:
-  # information display
   search
   filter
   list
   view
-  # form
   edit
   select
   edit
@@ -26,3 +39,5 @@ actions:
   click
   double-click
   request
+
+

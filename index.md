@@ -4,13 +4,11 @@ title: Home
 nav_order: 1
 ---
 
-# User story examples
+# User story examples 
 
 A free to use knowledge base to help you write better user stories.
 
 ## Getting Started
-
-### Writing user stories
 
 User stories are a quick and easy way for us to conceptualize the action a person takes towards achieving their intent in a system. Simply follow the formula:
 
@@ -20,9 +18,9 @@ Here is an example:
 
 - As a Product Manager, I want to view user story examples, so that I can learn their structure
 
-When designing a system (e.g., a product or service) we create mulitple user stories to to conceptualize the end to end user experience or customer journey.
+When designing a system (e.g., a product or service) we often create many user stories to conceptualize the end-to-end user experience.
 
-On this site you'll find user stories organized by user experience. Examples will cover typical use cases, for example:
+On this site you'll find example user stories organized by type of user experience. These will cover typical use cases, for example:
 
 - Ordering delivery
 - Booking travel accomidation
