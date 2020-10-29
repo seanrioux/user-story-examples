@@ -2,11 +2,11 @@
 
 ## What is a user story?
 
+Think of it as a method of _behaviour driven design_.
+
 - User stories are a conceptual device used in designing interfaces to help understand behaviour
 - A user story describes the action a person takes towards achieving their intent
 - Together, a set of user stories describe the journey
-
-- [theme \_config.xml](https://github.com/pmarsceill/just-the-docs/blob/master/_config.yml)
 
 Here we have a Product Manager who, (perhaps like yourself), needs to learn to write user stories for their job. They want to view examples, as it is their hope, they will be able to better internalize their structure and thus learn to write them.
 
@@ -21,3 +21,9 @@ Given I have navigated to userstoriesexamples.com
 When I visit the home page
 Then I find examples of how to write user stories
 ```
+
+### Resources
+
+- https://medium.com/@nic/writing-user-stories-with-gherkin-dda63461b1d2
+- https://medium.com/@mvwi/story-writing-with-gherkin-and-cucumber-1878124c284c
+- [theme \_config.xml](https://github.com/pmarsceill/just-the-docs/blob/master/_config.yml)

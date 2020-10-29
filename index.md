@@ -4,13 +4,15 @@ title: Home
 nav_order: 1
 ---
 
-# User story examples 
+# User story examples
 
 A free to use knowledge base to help you write better user stories.
 
 ## Getting Started
 
-User stories are a quick and easy way for us to conceptualize the action a person takes towards achieving their intent in a system. Simply follow the formula:
+User stories are a quick and easy way for us to conceptualize the action a person takes towards achieving their intent in a system.
+
+To write a user story simply follow the formula:
 
 - As a `type of person`, I want to `do something` so that I can `get something`
 
