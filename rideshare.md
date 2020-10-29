@@ -4,21 +4,23 @@ title: Rideshare
 nav_order: 2
 ---
 
-# Rideshare
+# Rideshare example
 
 An example ride-sharing experience from the perspective of a commuter who provides their location, and is connected to drivers in their area to successfully arrives at their destination.
 
-- Authorize my location
-- Enter my destinaion
-- Review pricing
-- Confirm
-- Follow
-- Ride
-- Arrive
-- Confirm
-- Rate
+## User story index
 
-## Stories
+1. Authorize my location
+2. Enter my destinaion
+3. Review pricing
+4. Confirm
+5. Follow
+6. Ride
+7. Arrive
+8. Confirm
+9. Rate
+
+## Example user stories
 
 ### Enter my destination
 
