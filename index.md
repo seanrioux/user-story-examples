@@ -8,7 +8,7 @@ nav_order: 1
 
 A free to use knowledge base to help you write better user stories.
 
-## Getting Started
+# Getting Started
 
 User stories provide a way to simply and plainly describe user action and intent when interacting with a system (typically a user inteface). In considering both the steps a user takes, and their motivations, in a narritive form we aim to empathize with our users while delivering a product or service.
 
@@ -17,43 +17,40 @@ To get started, we'll dig into the components of a strong user story, before pro
 - [Create A User Story](#create-a-user-story)
 - [Write Acceptance Criteria](#elaborate-acceptance-criteria)
 - [Build A Backlog](#build-a-backlog)
+- [Use This Site](#use-this-site)
 
-### Create A User Story
+## Create A User Story
 
 To create a user story, fill in the blanks:
 
-As a `[actor]`, I want to `[interaction]`, so that I can `[objective]`
+_As an `actor`, I want to `interact with something`, so that I can `achieve some objective`_
 
 Or more precisely:
 
-As a `[actor]` I want to `[action]` _an_ `[object]` so that I can `[action]` _an_ `[intent]`
+_As a `actor` I want to `action object(s)` so that I can `action intent(s)`_
 
 Let's flesh that out a bit more:
 
-#### Actor
+### Actor
 
-The `actor` is the first person subject of the story, and may be defined by their role in a system e.g.:
+The `actor` is the first person subject of the story, and may be defined by their role in a system or their persona e.g.:
 
-- As a new visitor
-- As a prospective customer
-- As a customer
+- A visitor
+- A prospect
+- A customer
+- Susan
 
-As infered above, an actor, may transition their role as the navigate a system, end to end (i.e., from prospective customer to customer).
+As inferred above, an actor may transition their role as the navigate a system, end to end (e.g., from visitor, to prospect, to customer).
 
-#### Interaction
+### Interaction
 
 An interaction is an _action_ we engage with an _object_, i.e., an external interaction with a system.
 
-An `action` is a verb describing a clear interaction with an external object (or objects) e.g.:
-
-- View
-- Select
-- add to cart
-- check-out
+An `action` is a verb describing a clear interaction with an external object (or objects) e.g., view, select, add, check-out.
 
 An `object` is any thing (or _collection_ of things) we might interact with e.g.:
 
-- A selection of shirts
+- Shirts
 - A Shirt
 - A shopping cart
 
@@ -61,22 +58,17 @@ An object can also include object _properties_ e.g., _shirt colour_, _shirt size
 
 If we put action and object together:
 
-- I want to view a selection of shirts
+- I want to view shirts
 - I want to select a shirt colour
 - I want to select a shirt size
 - I want to add a shirt to cart
 - I want to check-out my cart
 
-#### Objective
+### Objective
 
-An `objective` is the intent of the interaction i.e., the _why_. An objective is also _action oriented_ however, it describes action towards internal motivations, rather then external interaction.
+An `objective` is the intent of the interaction i.e., the _why_. An objective is also _action oriented_ however, it describes action towards internal goals, rather than external interaction.
 
-In this regard our objective `action` should use _goal oriented_ verbs, for example:
-
-- Explore
-- Continue
-- Achieve
-- Complete
+In this regard our objective `action` should use _goal oriented_ verbs, e.g., explore, continue, achieve, complete.
 
 Our `intent` of the story, similarly, should be _goal oriented_ and help the story to express the internal motivation of our actor i.e., the object of their desire e.g.:
 
@@ -84,76 +76,143 @@ Our `intent` of the story, similarly, should be _goal oriented_ and help the sto
 - My options
 - A new shirt
 
-As you can see by the last example in the list, the object of their desire might be the same object of the interaction. This is ok; just remember that our aim is to empathize with a use so perhaps consider _why do they want a new shirt?_ e.g.. _to look fresh for my job interview_.
+As you can see by the last example in the list, the object of their desire might be the same object of the interaction. This is ok; just remember that our aim is to empathize with a usee so always consider, _why?_
 
-Let's put that together into some **objective examples**:
+Let's put that together into some objective examples:
 
 - so that I can explore my options
 - so that I can match my preferences
-- so that I can look fresh for my job interview
+- so that I can look great
 
-#### Examples
+### User Story Examples
 
-Ok, Lets put that _all_ together. Here are some examples:
+Ok, Let's put that _all_ together. Here are some examples:
 
-- As a visitor, I want to view a selection of shirts, so that I can explore my options
-- As a prospective customer, I want to select a shirt colour, so that I can match my preference
-- As a customer, I want to purchase a shirt, so that I can look fresh for my job interview
+- _As a visitor, I want to view a selection of shirts, so that I can explore my options_
+- _As a prospective customer, I want to select a shirt colour, so that I can match my preference_
+- _As a customer, I want to purchase a new shirt, so that I can look great for my job interview_
 
 On this site you'll find many more examples of user stories, just like this, that will walk through many different possible applied cases for user stories.
 
-### Write Acceptance Criteria
+## Write Acceptance Criteria
 
-You can also elaborate on your user stories (using the recommended [Gherkin syntax](https://cucumber.io/docs/gherkin/reference/)) to establish a detailed step by step description of each interaction, while maintaining our first persona narritive.
+You can also elaborate on your user stories (using the recommended [Gherkin syntax](https://cucumber.io/docs/gherkin/reference/)) to establish a detailed step by step description of each interaction, while maintaining our first persona narrative.
 
 We call this _acceptance criteria_, as it provides a criteria for testing that a story is actionable by a user (hence _accepted_, or complete).
 
-#### Gherkin
+### Gherkin
 
-While a more complete breakdown of the [Gherkin syntax](https://cucumber.io/docs/gherkin/reference/) is beyond the scope of this site, here is a summary:
+Gherkin is a syntax for writing specifications in a narrative way. Based on the concept of [behaviour-driven development](https://cucumber.io/docs/bdd/) (BDD), Gherkin, follows a formula, with standard keywords for describing interactions, e.g.,
 
-- Gkerkin is a syntax for writing interface specifications in plain, narritive, language
-- Like user stories, follows a formula, with a set of simple keywords to outline steps
-- Gherkin is predicated on the concept of [behaviour-driven development](https://cucumber.io/docs/bdd/) (or BDD), whereby behaviour defines our solutions (rather then _business logic_)
-- Gherkin's BDD approach pairs well with user stories and it's _user-centricity_
-- Not only is Gherkin a great standard model to apply to acceptance criteria it also offers possibility of test automation (connecting our design, development and testing processes )
+- `Given` e.g., given some pre-condition i.e., used to introduce the pre-text
+- `When` e.g., when an action is taken i.e., used to describe an action or process step
+- `Then` e.g., then something occurs i.e., describes the effect of the action or step
 
-**Here is an example**
+These steps can also be chained together or modified using:
 
-As a visitor, I want to view a selection of shirts, so that I can explore available options
+- `And`, e.g., And when, and then, and then
+- `But`, e.g., But when this action, then this occurs
+
+Gherkin also employs indentation, and special keywords to help organize interactions e.g.:
 
 ```
-Scenario: Visit the store
-  Given I am in the neighbourshood
-  When I visit the store
-  Then I find a selection of shirts
+Feature: Add a shirt to cart
 
-Scenario: explore the shirts by property
-  When I view a selection of shirts
-  Then I find shirts organized by colour
-  And I find shirts organized by size
+  Scenario: Select a shirt
+    Given...
+    When...
+    Then...
+
+  Scenario: etc.
+
 ```
 
-### Build A Backlog
+As a standard Gherkins can be really powerful in helping to expand on your stories, and narrow your specifications. Thats not to mention, that it can be used [as the basis for end-to-end testing](https://cucumber.io/tools/cucumber-open/).
 
-As should be be clear in our examples, when designing a system (e.g., a product or service) we can create an ordered set of user stories to conceptualize an end-to-end user experience. This often described as a _backlog_.
+### Aceptance Criteria Example
 
-While your backlog will likely live in your project management software, maintaining your user stories and acceptance criteria for the long term serves a essential documentation for your product.
+Let's put that all together with a user story example from above:
+
+_As a visitor, I want to view a selection of shirts, so that I can explore available options
+_
+
+```
+Feature: View a selection of shirts
+
+  Scenario: Visit the store
+    Given I am in the neighbourshood
+    When I visit the store
+    Then I find a selection of shirts
+
+  Scenario: explore the shirts by property
+    When I view a selection of shirts
+    Then I find shirts organized by colour
+    And I find shirts organized by size
+```
+
+## Build A Backlog
+
+As should be be clear in our examples, when designing a system (e.g., a product or service) we can create an ordered set of user stories to conceptualize an _end-to-end user experience_.
+
+This is often described as a _backlog_.
+
+A good high level way to conceptualize your product backlog (even before writing stories) is to list, in order, all the interactions a user will take in a system.
+
+**Here's an example**
+
+1. Search for shirts
+2. Find a selection of shirts
+3. Browse by shirt category
+4. Select a shirt
+5. View shirt details
+6. Select shirt colour
+7. Add shirt to cart
+8. Check-out my shirt
+9. Receive my shirt
+
+This works to provide a prompt to write a set of user stories, but also serves as an index of actions to model our product.
+
+While your backlog will likely live in your project management software, maintaining your user stories and acceptance criteria for the long term serves as essential documentation for your product.
 
 In this regard we recommend establishing your backlog in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) first.
 
 **Here is a template**
 
 ```
+# Product Name
 
+A short yet terse description of your product.
 
+## User stories
 
+1. Find user story examples
+2. Get started writing stories
+
+### Search for story examples
+
+As a product manager, I want to get started writing user stories, so that I can maintain more user centric specifications
+
+`
+Feature: Get started writing user stories
+
+  Scenario: Read how to get started
+    Given I have found User Story Examples
+    When I view the home page
+    Then I find 'Getting Started'
+
+`
 ```
 
-On this site you'll find more example backlogs organized by user experience. These will cover a range of typical use cases, e.g.:
+## Use This Resource
+
+Here you'll find more example backlogs organized by user experience, and crafted as demonstrated in the Getting Started section.
+
+These will cover a range of typical use cases, e.g.:
 
 - Ordering delivery
 - Booking travel accomidation
 - Purchasing an investment
 
 We'll also provide additional resources to help you write your own user stories, acceptance criteria and how to organize your backlog or prioritize towards an MVP.
+
+[Let us know](mailto:sean@oyoboyo.com) if you find it helpful, or if you have any request or recommendations.
