@@ -1,31 +1,32 @@
 ---
 layout: default
-title: Rideshare
+title: Rideshare user story example
 nav_order: 2
 ---
 
-# Rideshare example
+# Rideshare user story example
 
 An example ride-sharing experience from the perspective of a commuter who provides their location, and is connected to drivers in their area to successfully arrives at work on time.
 
 ## User story index
 
-1. [Authorize my location](#provide-my-location)
-2. [Select my destination](#select-my-destination)
-3. View my ride on a map
-4. Review pricing
-5. Confirm
-6. Follow
-7. Ride
-8. Arrive
-9. Confirm
-10. Rate
+- [Authorize my location](#provide-my-location)
+- [Select my destination](#select-my-destination)
+- View estimated price
+- Confirm price
+- View my ride on a map
+- View my time of arrival
+- Learn about my driver
+- Receive notice of arrival
+- Receive notice of payment
+- Rate my ride
+- Tip my drive
 
 ## Example user stories
 
-### Authorize my location
+### Authorize location
 
-As a commuter, I want to provide my location, so that I can find rides nearby
+As a commuter, I want to authorize my location, so that I can get picked up at nearby
 
 ```
 Feature: Authorize my location
@@ -41,9 +42,9 @@ Feature: Authorize my location
     Then I am able to select my destination
 ```
 
-### Select my destination
+### Enter destination address
 
-As a commuter, I want to select my destination, so that I can book a ride to work
+As a commuter, I want to enter my destination address, so that I can plan my commute to work
 
 ```
 Feature: select my destination
@@ -67,10 +68,38 @@ Feature: select my destination
     Then the app finds drivers near my location
 ```
 
-###
+### View estimated price
 
-As a commuter, I want to view price, so that I can assess cost before I confirm my ride
+As a commuter, I want to view estimated price, so that I can consider my cost of commute
 
-As a commuter, I want to select to book, so that I can confirm my ride
+### Confirm price
 
-As a commuter, I want to follow , so I can
+As a commuter, I want to confirm price, so that I can book my ride to work
+
+### View my ride on a map
+
+As a commuter, I want to view my ride on a map, so that I can follow my route to work
+
+### View my time of arrival
+
+As a commuter, I want to view my time of arrival, so that I can ensure I'm on time
+
+### View driver profile
+
+As a commuter, I want to view my drivers profile, so that I can feel safe on my ride
+
+### Notice of arrival
+
+As a a commuter, I want to receive confirmation of arrival, so that I can assess my final travel time
+
+### Notice of payment
+
+As a commuter, I want to receive confirmation of payment, so that I can assess final cost on my arrival
+
+### Rate my ride
+
+As a commuter, I want to rate my ride, so that I can provide feedback on my experience
+
+### Tip my driver
+
+As a commuter, I want to tip my driver, so that I can thank them for my ride

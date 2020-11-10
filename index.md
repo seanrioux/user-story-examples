@@ -10,14 +10,14 @@ A free to use knowledge base to help you write better user stories.
 
 # Getting Started
 
-User stories provide a way to simply and plainly describe user action and intent when interacting with a system (typically a user inteface). In considering both the steps a user takes, and their motivations, in a narritive form we aim to empathize with our users while delivering a product or service.
+User stories provide a way to simply and plainly describe user action and intent when interacting with a system (typically a user interface). In considering both the steps a user takes, and their motivations, in a narrative form we aim to empathize with our users while delivering a product or service.
 
 To get started, we'll dig into the components of a strong user story, before providing you with a range of example user story backlogs to draw from.
 
 - [Create A User Story](#create-a-user-story)
 - [Write Acceptance Criteria](#elaborate-acceptance-criteria)
 - [Build A Backlog](#build-a-backlog)
-- [Use This Site](#use-this-site)
+- [Use This Resource](#use-this-resource)
 
 ## Create A User Story
 
@@ -86,7 +86,7 @@ Our `intent` of the story, similarly, should be _goal oriented_ and help the sto
 - My options
 - A new shirt
 
-As you can see by the last example in the list, the object of their desire might be the same object of the interaction. This is ok; just remember that our aim is to empathize with a usee so always consider, _why?_
+As you can see by the last example in the list, the object of their desire might be the same object of the interaction. This is ok; just remember that our aim is to empathize with a user so always consider, _why?_
 
 Let's put that together into some objective examples:
 
@@ -138,12 +138,11 @@ Feature: Add a shirt to cart
 
 As a standard Gherkins can be really powerful in helping to expand on your stories, and narrow your specifications. Thats not to mention, that it can be used [as the basis for end-to-end testing](https://cucumber.io/tools/cucumber-open/).
 
-### Aceptance Criteria Example
+### Acceptance Criteria Example
 
 Let's put that all together with a user story example from above:
 
-_As a visitor, I want to view a selection of shirts, so that I can explore available options
-_
+_As a visitor, I want to view a selection of shirts, so that I can explore available options_
 
 ```
 Feature: View a selection of shirts
@@ -218,9 +217,13 @@ Here you'll find more example backlogs organized by user experience, and crafted
 These will cover a range of typical use cases, e.g.:
 
 - Ordering delivery
-- Booking travel accomidation
+- Booking travel accommodation
 - Purchasing an investment
 
 We'll also provide additional resources to help you write your own user stories, acceptance criteria and how to organize your backlog or prioritize towards an MVP.
 
 [Let us know](mailto:sean@oyoboyo.com) if you find it helpful, or if you have any request or recommendations.
+
+## Other Resources
+
+- [ ] To do
