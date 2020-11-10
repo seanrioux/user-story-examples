@@ -23,11 +23,11 @@ To get started, we'll dig into the components of a strong user story, before pro
 
 To create a user story, fill in the blanks:
 
-_As an `actor`, I want to `interact with something`, so that I can `achieve some objective`_
+- As an `actor`, I want to `interact with something`, so that I can `achieve some objective`
 
 Or more precisely:
 
-_As a `actor` I want to `action object(s)` so that I can `action intent(s)`_
+- As a `actor` I want to `action object(s)` so that I can `action intent(s)`
 
 Let's flesh that out a bit more:
 
@@ -46,7 +46,12 @@ As inferred above, an actor may transition their role as the navigate a system, 
 
 An interaction is an _action_ we engage with an _object_, i.e., an external interaction with a system.
 
-An `action` is a verb describing a clear interaction with an external object (or objects) e.g., view, select, add, check-out.
+An `action` is a verb describing a clear interaction with an external object (or objects) e.g.:
+
+- View
+- Select
+- Add
+- Check-out
 
 An `object` is any thing (or _collection_ of things) we might interact with e.g.:
 
@@ -68,7 +73,12 @@ If we put action and object together:
 
 An `objective` is the intent of the interaction i.e., the _why_. An objective is also _action oriented_ however, it describes action towards internal goals, rather than external interaction.
 
-In this regard our objective `action` should use _goal oriented_ verbs, e.g., explore, continue, achieve, complete.
+In this regard our objective `action` should use _goal oriented_ verbs, e.g.,:
+
+- Explore
+- Continue
+- Achieve
+- Complete
 
 Our `intent` of the story, similarly, should be _goal oriented_ and help the story to express the internal motivation of our actor i.e., the object of their desire e.g.:
 
@@ -124,7 +134,6 @@ Feature: Add a shirt to cart
     Then...
 
   Scenario: etc.
-
 ```
 
 As a standard Gherkins can be really powerful in helping to expand on your stories, and narrow your specifications. Thats not to mention, that it can be used [as the basis for end-to-end testing](https://cucumber.io/tools/cucumber-open/).
@@ -188,7 +197,7 @@ A short yet terse description of your product.
 1. Find user story examples
 2. Get started writing stories
 
-### Search for story examples
+### 1. Find user examples
 
 As a product manager, I want to get started writing user stories, so that I can maintain more user centric specifications
 
@@ -199,7 +208,6 @@ Feature: Get started writing user stories
     Given I have found User Story Examples
     When I view the home page
     Then I find 'Getting Started'
-
 `
 ```
 
