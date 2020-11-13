@@ -22,6 +22,7 @@ An example ride-sharing experience from the perspective of a commuter who provid
 - Rate my ride
 - Tip my drive
 
+
 ## Example user stories
 
 ### Authorize location
