@@ -5,19 +5,19 @@ permalink: /
 nav_order: 1
 ---
 
-# User story examples
+# User Story Examples
 
 A free to use knowledge base to help you write better user stories.
+{: .fs-6 }
 
 [View on Github](https://github.com/seanrioux/user-story-examples){: .btn .btn-purple }
 
-# Getting Started
+---
 
-User stories provide a way to simply and plainly describe user action and intent when interacting with a system (typically a user interface). In considering both the steps a user takes, and their motivations, in a narrative form we aim to empathize with our users while delivering a product or service.
+# Table of Contents
 
-To get started, we'll dig into the components of a strong user story, before providing you with a range of example user story backlogs to draw from.
-
-- [User story examples](#user-story-examples)
+- [User Story Examples](#user-story-examples)
+- [Table of Contents](#table-of-contents)
 - [Getting Started](#getting-started)
   - [Create A User Story](#create-a-user-story)
     - [Actor](#actor)
@@ -28,8 +28,16 @@ To get started, we'll dig into the components of a strong user story, before pro
     - [Gherkin](#gherkin)
     - [Acceptance Criteria Example](#acceptance-criteria-example)
   - [Build A Backlog](#build-a-backlog)
-  - [Use This Resource](#use-this-resource)
-  - [Other Resources](#other-resources)
+- [Use This Resource](#use-this-resource)
+- [Appendix](#appendix)
+
+---
+
+# Getting Started
+
+User stories provide a way to simply and plainly describe user action and intent when interacting with a system (typically a user interface). In considering both the steps a user takes, and their motivations, in a narrative form we aim to empathize with our users while delivering a product or service.
+
+To get started, we'll dig into the components of a strong user story, before providing you with a range of example user story backlogs to draw from.
 
 ## Create A User Story
 
@@ -221,8 +229,9 @@ Feature: Get started writing user stories
     Then I find 'Getting Started'
 `
 ```
+---
 
-## Use This Resource
+# Use This Resource
 
 Here you'll find more example backlogs organized by user experience, and crafted as demonstrated in the Getting Started section.
 
@@ -236,6 +245,9 @@ We'll also provide additional resources to help you write your own user stories,
 
 [Let us know](mailto:sean@oyoboyo.com) if you find it helpful, or if you have any request or recommendations.
 
-## Other Resources
+---
 
-- [ ] To do
+# Appendix
+
+- [behaviour-driven development](https://cucumber.io/docs/bdd/)
+- [Gherkin syntax](https://cucumber.io/docs/gherkin/reference/)
