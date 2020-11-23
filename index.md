@@ -9,6 +9,8 @@ nav_order: 1
 
 A free to use knowledge base to help you write better user stories.
 
+[View on Github](https://github.com/seanrioux/user-story-examples){: .btn .btn-purple }
+
 # Getting Started
 
 User stories provide a way to simply and plainly describe user action and intent when interacting with a system (typically a user interface). In considering both the steps a user takes, and their motivations, in a narrative form we aim to empathize with our users while delivering a product or service.
