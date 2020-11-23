@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Rideshare user story example
+permalink: /examples/rideshare
 nav_order: 2
 ---
 

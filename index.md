@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Getting started
+permalink: /
 nav_order: 1
 ---
 
@@ -14,10 +15,19 @@ User stories provide a way to simply and plainly describe user action and intent
 
 To get started, we'll dig into the components of a strong user story, before providing you with a range of example user story backlogs to draw from.
 
-- [Create A User Story](#create-a-user-story)
-- [Write Acceptance Criteria](#elaborate-acceptance-criteria)
-- [Build A Backlog](#build-a-backlog)
-- [Use This Resource](#use-this-resource)
+- [User story examples](#user-story-examples)
+- [Getting Started](#getting-started)
+  - [Create A User Story](#create-a-user-story)
+    - [Actor](#actor)
+    - [Interaction](#interaction)
+    - [Objective](#objective)
+    - [User Story Examples](#user-story-examples-1)
+  - [Write Acceptance Criteria](#write-acceptance-criteria)
+    - [Gherkin](#gherkin)
+    - [Acceptance Criteria Example](#acceptance-criteria-example)
+  - [Build A Backlog](#build-a-backlog)
+  - [Use This Resource](#use-this-resource)
+  - [Other Resources](#other-resources)
 
 ## Create A User Story
 
