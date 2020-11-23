@@ -1,21 +1,26 @@
 ---
 layout: default
-title: Rideshare user story example
+title: Rideshare user story examples
 permalink: /examples/rideshare
 nav_order: 2
 ---
 
-# Rideshare user story example
+# Hail a rideshare
+
+Epic
+{: .label .label-purple }
 
 An example ride-sharing experience from the perspective of a commuter who provides their location, and is connected to drivers in their area to successfully arrives at work on time.
 {: .fs-6 }
 
 [View on Github](https://github.com/seanrioux/user-story-examples/blob/master/rideshare.md){: .btn .btn-purple }
 
-# User stories
+---
 
-- [Rideshare user story example](#rideshare-user-story-example)
-- [User stories](#user-stories)
+# Table Of Contents
+- [Hail a rideshare](#hail-a-rideshare)
+- [Table Of Contents](#table-of-contents)
+- [User stories and acceptance criteria](#user-stories-and-acceptance-criteria)
   - [Authorize my location](#authorize-my-location)
   - [Enter my destination address](#enter-my-destination-address)
   - [Confirm my estimated price](#confirm-my-estimated-price)
@@ -24,10 +29,17 @@ An example ride-sharing experience from the perspective of a commuter who provid
   - [Rate my ride](#rate-my-ride)
   - [Tip my driver](#tip-my-driver)
   - [Confirmation of payment](#confirmation-of-payment)
+- [Backlog](#backlog)
+
+---
+
+# User stories and acceptance criteria
+
 
 ## Authorize my location
 
 _As a commuter, I want to authorize my location, so that I can get picked up nearby_
+{: .fs-4 }
 
 ```
 Feature: Location
@@ -71,6 +83,7 @@ Feature: Location
 ## Enter my destination address
 
 _As a commuter, I want to enter my destination, so that I can plan my ride_
+{: .fs-4 }
 
 ```
 Feature: Destination
@@ -118,6 +131,7 @@ Feature: Destination
 ## Confirm my estimated price
 
 _As a commuter, I want to confirm my estimated ride cost, so that I can book my ride_
+{: .fs-4 }
 
 ```
 
@@ -155,6 +169,7 @@ Feature: Estimated price
 ## View my ride on a map
 
 _As a commuter, I want to view my ride on a map, so that I can follow my drivers route_
+{: .fs-4 }
 
 ```
 Feature: Map
@@ -192,6 +207,7 @@ Feature: Map
 ## View my arrival time
 
 _As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time_
+{: .fs-4 }
 
 ```
 Feature: Arrival time
@@ -219,7 +235,8 @@ Feature: Arrival time
 
 ## Rate my ride
 
-As a commuter, I want to rate my ride, so that I can provide feedback on my experience
+_As a commuter, I want to rate my ride, so that I can provide feedback on my experience_
+{: .fs-4 }
 
 ```
 Feature: Rate ride
@@ -258,7 +275,8 @@ Feature: Rate ride
 
 ## Tip my driver
 
-As a commuter, I want to tip my driver, so that I can thank them for my ride
+_As a commuter, I want to tip my driver, so that I can thank them for my ride_
+{: .fs-4 }
 
 ```
 Feature: Tip driver
@@ -313,6 +331,7 @@ Feature: Rate ride
 ## Confirmation of payment
 
 _As a commuter, I want to receive confirmation of payment, so that I can assess my total cost_
+{: .fs-4 }
 
 ```
 Feature: Receive payment confirmation
@@ -340,3 +359,16 @@ Feature: Receive payment confirmation
     And my tip amount is added to the total
 
 ```
+
+# Backlog
+
+| ID   | Summary                      | Description                                                                                  | Epic             |
+| ---- | ---------------------------- | -------------------------------------------------------------------------------------------- | ---------------- |
+| RS-1 | Authorize my location        | As a commuter, I want to authorize my location, so that I can get picked up nearby           | Hail a rideshare |
+| RS-2 | Enter my destination address | As a commuter, I want to enter my destination, so that I can plan my ride                    | Hail a rideshare |
+| RS-3 | Confirm my estimated price   | As a commuter, I want to confirm my estimated ride cost, so that I can book my ride          | Hail a rideshare |
+| RS-4 | View my ride on a map        | As a commuter, I want to view my ride on a map, so that I can follow my drivers route        | Hail a rideshare |
+| RS-5 | View my arrival time         | As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time       | Hail a rideshare |
+| RS-6 | Rate my ride                 | As a commuter, I want to rate my ride, so that I can provide feedback on my experience       | Hail a rideshare |
+| RS-7 | Tip my driver                | As a commuter, I want to tip my driver, so that I can thank them for my ride                 | Hail a rideshare |
+| RS-8 | Confirmation of payment      | As a commuter, I want to receive confirmation of payment, so that I can assess my total cost | Hail a rideshare |
