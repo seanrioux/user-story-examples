@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Getting started with user stories
+title: Getting started
 nav_order: 1
 ---
 
