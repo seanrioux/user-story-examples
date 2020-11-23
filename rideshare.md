@@ -36,17 +36,17 @@ An example ride-sharing experience from the perspective of a commuter who provid
 ## Hail a rideshare
 
 Epic
-{: .ml-0 .label .label-purple }
+{: .ml-0 .mb-0 .label .label-purple }
 
-_As a commuter, I want to hail a rideshare, so that I can commute to work_
+As a commuter, I want to hail a rideshare, so that I can commute to work
 
 
 ## Authorize my location
 
 Story
-{: .ml-0 .label .label-green }
+{: .ml-0 .mb-0 .label .label-green }
 
-_As a commuter, I want to authorize my location, so that I can get picked up nearby_
+As a commuter, I want to authorize my location, so that I can get picked up nearby
 {: .fs-4 }
 
 ```
@@ -91,9 +91,9 @@ Feature: Location
 ## Enter my destination address
 
 Story
-{: .ml-0 .label .label-green }
+{: .ml-0 .mb-0 .label .label-green }
 
-_As a commuter, I want to enter my destination, so that I can plan my ride_
+As a commuter, I want to enter my destination, so that I can plan my ride
 {: .fs-4 }
 
 ```
@@ -142,9 +142,9 @@ Feature: Destination
 ## Confirm my estimated price
 
 Story
-{: .ml-0 .label .label-green }
+{: .ml-0 .mb-0 .label .label-green }
 
-_As a commuter, I want to confirm my estimated ride cost, so that I can book my ride_
+As a commuter, I want to confirm my estimated ride cost, so that I can book my ride
 {: .fs-4 }
 
 ```
@@ -183,9 +183,9 @@ Feature: Estimated price
 ## View my ride on a map
 
 Story
-{: .ml-0 .label .label-green }
+{: .ml-0 .mb-0 .label .label-green }
 
-_As a commuter, I want to view my ride on a map, so that I can follow my drivers route_
+As a commuter, I want to view my ride on a map, so that I can follow my drivers route
 {: .fs-4 }
 
 ```
@@ -224,9 +224,9 @@ Feature: Map
 ## View my arrival time
 
 Story
-{: .ml-0 .label .label-green }
+{: .ml-0 .mb-0 .label .label-green }
 
-_As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time_
+As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time
 {: .fs-4 }
 
 ```
@@ -256,9 +256,9 @@ Feature: Arrival time
 ## Rate my ride
 
 Story
-{: .ml-0 .label .label-green }
+{: .ml-0 .mb-0 .label .label-green }
 
-_As a commuter, I want to rate my ride, so that I can provide feedback on my experience_
+As a commuter, I want to rate my ride, so that I can provide feedback on my experience
 {: .fs-4 }
 
 ```
@@ -299,9 +299,9 @@ Feature: Rate ride
 ## Tip my driver
 
 Story
-{: .ml-0 .label .label-green }
+{: .ml-0 .mb-0 .label .label-green }
 
-_As a commuter, I want to tip my driver, so that I can thank them for my ride_
+As a commuter, I want to tip my driver, so that I can thank them for my ride
 {: .fs-4 }
 
 ```
@@ -357,9 +357,9 @@ Feature: Rate ride
 ## Confirmation of payment
 
 Story
-{: .ml-0 .label .label-green }
+{: .ml-0 .mb-0 .label .label-green }
 
-_As a commuter, I want to receive confirmation of payment, so that I can assess my total cost_
+As a commuter, I want to receive confirmation of payment, so that I can assess my total cost
 {: .fs-4 }
 
 ```
