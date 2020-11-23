@@ -8,6 +8,9 @@ nav_order: 2
 # Rideshare user story example
 
 An example ride-sharing experience from the perspective of a commuter who provides their location, and is connected to drivers in their area to successfully arrives at work on time.
+{: .fs-6 }
+
+[View on Github](https://github.com/seanrioux/user-story-examples/blob/master/rideshare.md){: .btn .btn-purple }
 
 # User stories
 

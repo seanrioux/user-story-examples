@@ -1,6 +1,6 @@
 # User Story Examples
 
-A free to use knowledge base to help you write better user stories.
+A free to use knowledge base to help you write better user stories
 
 [Visit the website](https://userstoryexamples.com/)
 
@@ -245,7 +245,6 @@ We'll also provide additional resources to help you write your own user stories,
 
 - [behaviour-driven development](https://cucumber.io/docs/bdd/)
 - [Gherkin syntax](https://cucumber.io/docs/gherkin/reference/)
-
 
 ### Resources
 
