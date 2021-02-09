@@ -13,28 +13,20 @@ An example ride-sharing experience from the perspective of a commuter who provid
 
 | ID | Summary | Description | Epic |
 | --- | --- | --- | --- |
-| RS-1 | Authorize my location | As a commuter, I want to authorize my location, so that I can get picked up nearby | Hail a ride |
-| RS-2 | Enter my destination address | As a commuter, I want to enter my destination, so that I can plan my ride | Hail a ride |
-| RS-3 | Confirm my estimated price | As a commuter, I want to confirm my estimated ride cost, so that I can book my ride | Hail a ride |
-| RS-4 | View my ride on a map | As a commuter, I want to view my ride on a map, so that I can follow my drivers route | Hail a ride |
-| RS-5 | View my arrival time | As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time | Hail a ride |
-| RS-6 | Rate my ride | As a commuter, I want to rate my ride, so that I can provide feedback on my experience | Hail a ride |
-| RS-7 | Tip my driver | As a commuter, I want to tip my driver, so that I can thank them for my ride | Hail a ride |
-| RS-8 | Confirmation of payment | As a commuter, I want to receive confirmation of payment, so that I can assess my total cost | Hail a ride |
+| RIDE-1 | Authorize my location | As a commuter, I want to authorize my location, so that I can get picked up nearby | Hail a ride |
+| RIDE-2 | Enter my destination address | As a commuter, I want to enter my destination, so that I can plan my ride | Hail a ride |
+| RIDE-3 | Confirm my estimated price | As a commuter, I want to confirm my estimated ride cost, so that I can book my ride | Hail a ride |
+| RIDE-4 | View my ride on a map | As a commuter, I want to view my ride on a map, so that I can follow my drivers route | Hail a ride |
+| RIDE-5 | View my arrival time | As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time | Hail a ride |
+| RIDE-6 | Rate my ride | As a commuter, I want to rate my ride, so that I can provide feedback on my experience | Hail a ride |
+| RIDE-7 | Tip my driver | As a commuter, I want to tip my driver, so that I can thank them for my ride | Hail a ride |
+| RIDE-8 | Confirmation of payment | As a commuter, I want to receive confirmation of payment, so that I can assess my total cost | Hail a ride |
 
 # Stories and Acceptance Criteria
 
-## Hail a ride
-
-Epic {: .ml-0 .mb-0 .label .label-purple }
-
-As a commuter, I want to hail a rides, so that I can commute to work
-
 ## Authorize my location
 
-Story {: .ml-0 .mb-0 .label .label-green }
-
-As a commuter, I want to authorize my location, so that I can get picked up nearby {: .fs-4 }
+As a commuter, I want to authorize my location, so that I can get picked up nearby
 
 ```
 Feature: Location
@@ -126,8 +118,6 @@ Feature: Destination
 
 ## Confirm my estimated price
 
-Story {: .ml-0 .mb-0 .label .label-green }
-
 As a commuter, I want to confirm my estimated ride cost, so that I can book my ride {: .fs-4 }
 
 ```
@@ -164,8 +154,6 @@ Feature: Estimated price
 ```
 
 ## View my ride on a map
-
-Story {: .ml-0 .mb-0 .label .label-green }
 
 As a commuter, I want to view my ride on a map, so that I can follow my drivers route {: .fs-4 }
 
@@ -204,8 +192,6 @@ Feature: Map
 
 ## View my arrival time
 
-Story {: .ml-0 .mb-0 .label .label-green }
-
 As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time {: .fs-4 }
 
 ```
@@ -233,8 +219,6 @@ Feature: Arrival time
 ```
 
 ## Rate my ride
-
-Story {: .ml-0 .mb-0 .label .label-green }
 
 As a commuter, I want to rate my ride, so that I can provide feedback on my experience {: .fs-4 }
 
@@ -274,8 +258,6 @@ Feature: Rate ride
 ```
 
 ## Tip my driver
-
-Story {: .ml-0 .mb-0 .label .label-green }
 
 As a commuter, I want to tip my driver, so that I can thank them for my ride {: .fs-4 }
 
@@ -329,8 +311,6 @@ Feature: Rate ride
 ```
 
 ## Confirmation of payment
-
-Story {: .ml-0 .mb-0 .label .label-green }
 
 As a commuter, I want to receive confirmation of payment, so that I can assess my total cost {: .fs-4 }
 

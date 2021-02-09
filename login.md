@@ -24,15 +24,7 @@ Here are a set of example user stories for an application log in. This user stor
 
 # Stories and Acceptance Criteria
 
-## Login
-
-Epic {: .ml-0 .mb-0 .label .label-purple }
-
-As a user, I want to login, to access the application and my information
-
 ## Access the application securely
-
-Story LOG-1 {: .ml-0 .mb-0 .label .label-green }
 
 As a user, I want to access the application securely, to protect my information
 
@@ -54,8 +46,6 @@ Scenario: Access permitted
 ```
 
 ## Navigate to log in
-
-Story LOG-2 {: .ml-0 .mb-0 .label .label-green }
 
 As a user, I want to navigate to the login form, so that I can enter my credentials
 
@@ -83,8 +73,6 @@ Scenario: Navigate to log out
 ```
 
 ## Enter credentials
-
-Story LOG-3 {: .ml-0 .mb-0 .label .label-green }
 
 As a user, I want to enter my credentials, so I can submit the form
 
@@ -139,8 +127,6 @@ Scenario: invalid password
 ```
 
 ## Reset password
-
-Story LOG-4 {: .ml-0 .mb-0 .label .label-green }
 
 As a user, I want to reset my password, so that I recover access my account
 

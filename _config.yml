@@ -3,7 +3,6 @@ description: Free to use user stories, to help you kick start your next big idea
 remote_theme: pmarsceill/just-the-docs
 url: "http://userstoryexamples.com"
 
-
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
 
@@ -56,13 +55,11 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2017-2021 Sean Rioux. Distributed by an <a href=\"https://github.com/seanrioux/user-story-examples/tree/master/LICENSE.txt\">MIT license.</a>"
+footer_content: 'Copyright &copy; 2017-2021 Sean Rioux. Distributed by an <a href="https://github.com/seanrioux/user-story-examples/tree/master/LICENSE.txt">MIT license.</a>'
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
-
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
@@ -73,7 +70,7 @@ gh_edit_branch: "master" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: dark
+color_scheme: light
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
