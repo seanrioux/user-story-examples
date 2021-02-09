@@ -1,53 +1,40 @@
 ---
 layout: default
-title: Rideshare user story examples
+title: Rideshare user story example
 permalink: /examples/rideshare
 nav_order: 2
 ---
 
 # Rideshare user story examples
 
-An example ride-sharing experience from the perspective of a commuter who provides their location, and is connected to drivers in their area to successfully arrives at work on time.
-{: .fs-6 }
+An example ride-sharing experience from the perspective of a commuter who provides their location, and is connected to drivers in their area to successfully arrives at work on time. {: .fs-6 }
 
-[View on Github](https://github.com/seanrioux/user-story-examples/blob/master/rideshare.md){: .btn .btn-purple }
+# Backlog
 
----
+| ID | Summary | Description | Epic |
+| --- | --- | --- | --- |
+| RS-1 | Authorize my location | As a commuter, I want to authorize my location, so that I can get picked up nearby | Hail a ride |
+| RS-2 | Enter my destination address | As a commuter, I want to enter my destination, so that I can plan my ride | Hail a ride |
+| RS-3 | Confirm my estimated price | As a commuter, I want to confirm my estimated ride cost, so that I can book my ride | Hail a ride |
+| RS-4 | View my ride on a map | As a commuter, I want to view my ride on a map, so that I can follow my drivers route | Hail a ride |
+| RS-5 | View my arrival time | As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time | Hail a ride |
+| RS-6 | Rate my ride | As a commuter, I want to rate my ride, so that I can provide feedback on my experience | Hail a ride |
+| RS-7 | Tip my driver | As a commuter, I want to tip my driver, so that I can thank them for my ride | Hail a ride |
+| RS-8 | Confirmation of payment | As a commuter, I want to receive confirmation of payment, so that I can assess my total cost | Hail a ride |
 
-# Table Of Contents
-- [Rideshare user story examples](#rideshare-user-story-examples)
-- [Table Of Contents](#table-of-contents)
-- [User stories](#user-stories)
-  - [Hail a rideshare](#hail-a-rideshare)
-  - [Authorize my location](#authorize-my-location)
-  - [Enter my destination address](#enter-my-destination-address)
-  - [Confirm my estimated price](#confirm-my-estimated-price)
-  - [View my ride on a map](#view-my-ride-on-a-map)
-  - [View my arrival time](#view-my-arrival-time)
-  - [Rate my ride](#rate-my-ride)
-  - [Tip my driver](#tip-my-driver)
-  - [Confirmation of payment](#confirmation-of-payment)
-- [Backlog](#backlog)
+# Stories and Acceptance Criteria
 
----
+## Hail a ride
 
-# User stories
+Epic {: .ml-0 .mb-0 .label .label-purple }
 
-## Hail a rideshare
-
-Epic
-{: .ml-0 .mb-0 .label .label-purple }
-
-As a commuter, I want to hail a rideshare, so that I can commute to work
-
+As a commuter, I want to hail a rides, so that I can commute to work
 
 ## Authorize my location
 
-Story
-{: .ml-0 .mb-0 .label .label-green }
+Story {: .ml-0 .mb-0 .label .label-green }
 
-As a commuter, I want to authorize my location, so that I can get picked up nearby
-{: .fs-4 }
+As a commuter, I want to authorize my location, so that I can get picked up nearby {: .fs-4 }
 
 ```
 Feature: Location
@@ -90,11 +77,9 @@ Feature: Location
 
 ## Enter my destination address
 
-Story
-{: .ml-0 .mb-0 .label .label-green }
+Story {: .ml-0 .mb-0 .label .label-green }
 
-As a commuter, I want to enter my destination, so that I can plan my ride
-{: .fs-4 }
+As a commuter, I want to enter my destination, so that I can plan my ride {: .fs-4 }
 
 ```
 Feature: Destination
@@ -121,7 +106,7 @@ Feature: Destination
 
   Scenario: Select destination
     Given I have entered a destination address
-    When I select my destination from the destinations list 
+    When I select my destination from the destinations list
     Then I see a "Confirm my destination" prompt
     And I see a button to "Confirm"
     And I see a button to "Cancel"
@@ -141,11 +126,9 @@ Feature: Destination
 
 ## Confirm my estimated price
 
-Story
-{: .ml-0 .mb-0 .label .label-green }
+Story {: .ml-0 .mb-0 .label .label-green }
 
-As a commuter, I want to confirm my estimated ride cost, so that I can book my ride
-{: .fs-4 }
+As a commuter, I want to confirm my estimated ride cost, so that I can book my ride {: .fs-4 }
 
 ```
 
@@ -182,11 +165,9 @@ Feature: Estimated price
 
 ## View my ride on a map
 
-Story
-{: .ml-0 .mb-0 .label .label-green }
+Story {: .ml-0 .mb-0 .label .label-green }
 
-As a commuter, I want to view my ride on a map, so that I can follow my drivers route
-{: .fs-4 }
+As a commuter, I want to view my ride on a map, so that I can follow my drivers route {: .fs-4 }
 
 ```
 Feature: Map
@@ -202,7 +183,7 @@ Feature: Map
     When I am on the map screen
     Then I can see a map
     And I can see rides nearby
-  
+
   Scenario: View map
     Given I have not authorize my location
     When I am on the map screen
@@ -223,11 +204,9 @@ Feature: Map
 
 ## View my arrival time
 
-Story
-{: .ml-0 .mb-0 .label .label-green }
+Story {: .ml-0 .mb-0 .label .label-green }
 
-As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time
-{: .fs-4 }
+As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time {: .fs-4 }
 
 ```
 Feature: Arrival time
@@ -255,11 +234,9 @@ Feature: Arrival time
 
 ## Rate my ride
 
-Story
-{: .ml-0 .mb-0 .label .label-green }
+Story {: .ml-0 .mb-0 .label .label-green }
 
-As a commuter, I want to rate my ride, so that I can provide feedback on my experience
-{: .fs-4 }
+As a commuter, I want to rate my ride, so that I can provide feedback on my experience {: .fs-4 }
 
 ```
 Feature: Rate ride
@@ -280,7 +257,7 @@ Feature: Rate ride
     And I see rating options from 0 to 5 stars
     And 5 stars is selected
     And I see a button to "Confirm"
-    And I see a button to "Cancel"    
+    And I see a button to "Cancel"
 
   Scenario: Select and confirm rating
     When a rating is selected
@@ -298,11 +275,9 @@ Feature: Rate ride
 
 ## Tip my driver
 
-Story
-{: .ml-0 .mb-0 .label .label-green }
+Story {: .ml-0 .mb-0 .label .label-green }
 
-As a commuter, I want to tip my driver, so that I can thank them for my ride
-{: .fs-4 }
+As a commuter, I want to tip my driver, so that I can thank them for my ride {: .fs-4 }
 
 ```
 Feature: Tip driver
@@ -327,14 +302,14 @@ Feature: Rate ride
     * I see "Tip percentage" options for "10%", "15%", and "18%"
     * I see a button to "Confirm"
     * The "Confirm" button is disabled
-    * I see a button to "Cancel" 
+    * I see a button to "Cancel"
 
   Scenario: Submit tip percentage
     Given I see a "Tip my driver" prompt
     When I select a "Tip percentage" option
     Then I see a "Tip amount" as the selected percentage of my total cost
     Then I am able to select "Confirm"
-    When I select "Confirm" 
+    When I select "Confirm"
     Then my tip is submitted
     And the "Tip my driver" input is closed
 
@@ -342,7 +317,7 @@ Feature: Rate ride
     Given I see a "Tip my driver" prompt
     When I enter a number into the "Tip amount"
     Then I am able to select "Confirm"
-    When I select "Confirm" 
+    When I select "Confirm"
     Then my tip is submitted
     And the "Tip my driver" input is closed
 
@@ -353,14 +328,11 @@ Feature: Rate ride
     And the "Tip my driver" input is closed
 ```
 
-
 ## Confirmation of payment
 
-Story
-{: .ml-0 .mb-0 .label .label-green }
+Story {: .ml-0 .mb-0 .label .label-green }
 
-As a commuter, I want to receive confirmation of payment, so that I can assess my total cost
-{: .fs-4 }
+As a commuter, I want to receive confirmation of payment, so that I can assess my total cost {: .fs-4 }
 
 ```
 Feature: Receive payment confirmation
@@ -388,16 +360,3 @@ Feature: Receive payment confirmation
     And my tip amount is added to the total
 
 ```
-
-# Backlog
-
-| ID   | Summary                      | Description                                                                                  | Epic             |
-| ---- | ---------------------------- | -------------------------------------------------------------------------------------------- | ---------------- |
-| RS-1 | Authorize my location        | As a commuter, I want to authorize my location, so that I can get picked up nearby           | Hail a rideshare |
-| RS-2 | Enter my destination address | As a commuter, I want to enter my destination, so that I can plan my ride                    | Hail a rideshare |
-| RS-3 | Confirm my estimated price   | As a commuter, I want to confirm my estimated ride cost, so that I can book my ride          | Hail a rideshare |
-| RS-4 | View my ride on a map        | As a commuter, I want to view my ride on a map, so that I can follow my drivers route        | Hail a rideshare |
-| RS-5 | View my arrival time         | As a commuter, I want to view my time of arrival, so that I can ensure I'll be on time       | Hail a rideshare |
-| RS-6 | Rate my ride                 | As a commuter, I want to rate my ride, so that I can provide feedback on my experience       | Hail a rideshare |
-| RS-7 | Tip my driver                | As a commuter, I want to tip my driver, so that I can thank them for my ride                 | Hail a rideshare |
-| RS-8 | Confirmation of payment      | As a commuter, I want to receive confirmation of payment, so that I can assess my total cost | Hail a rideshare |
